@@ -96,7 +96,7 @@ function draw(){
   //frameRate(50);
   
   background("white");
-
+ camera.position.y=trex.y/2;
   trex.changeAnimation("trexRun");
   
  // console.log(frameRate());
